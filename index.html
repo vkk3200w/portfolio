@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore Kumar V | Python Developer</title>
+    <meta name="description"
+        content="Portfolio of Kishore Kumar V, an Aspiring Computer Science Engineer and Python Developer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for Icons (using CDN for simplicity) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">Kishore<span class="highlight">.dev</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="headline">Kishore Kumar V</h1>
+            <p class="subheadline">Aspiring Computer Science Engineer & <span class="text-gradient">Python
+                    Developer</span></p>
+            <p class="intro-text">
+                Focusing on Python development, web technologies, cloud computing, and scalable application development.
+                Passionate about API-driven architectures and data-driven solutions.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <!-- Decorative Background Element -->
+        <div class="hero-bg-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Bachelor of Technology student in Computer Science Engineering at Vellore Institute of
+                        Technology, Chennai (2022-2026), with a CGPA of 7.55.
+                    </p>
+                    <p>
+                        I have hands-on experience with Flask, React, MongoDB, and cloud computing. I am committed to
+                        writing clean, maintainable code while continuously learning modern tools and best practices.
+                    </p>
+
+                    <!-- Education Timeline/List -->
+                    <div class="education-list">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <span class="edu-year">July 2022 - May 2026</span>
+                            <div class="edu-details">
+                                <h4>B.Tech in Computer Science Engineering</h4>
+                                <p>Vellore Institute of Technology, Chennai</p>
+                                <p class="edu-grade">CGPA: 7.55</p>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-year">2022</span>
+                            <div class="edu-details">
+                                <h4>12th Standard</h4>
+                                <p>Edustar International School</p>
+                                <p class="edu-grade">76.8%</p>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-year">2020</span>
+                            <div class="edu-details">
+                                <h4>10th Standard</h4>
+                                <p>Edustar International School</p>
+                                <p class="edu-grade">68.4%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- Intern 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2025 - July 2025</div>
+                    <div class="timeline-content">
+                        <h3>Project Intern</h3>
+                        <h4>Mobius Knowledge Services</h4>
+                        <p>
+                            Developed a BMI Calculator application by integrating a Flask-Pydantic backend with a
+                            React-based frontend.
+                            Focused on data validation ensure ensure secure and accurate data handling.
+                            Explored real-world API robustness and scalable application architecture.
+                        </p>
+                    </div>
+                </div>
+                <!-- Intern 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2024 - July 2024</div>
+                    <div class="timeline-content">
+                        <h3>Internship</h3>
+                        <h4>Robotronix Automation</h4>
+                        <p>
+                            Contributed to a Part Identification System for CKD components using OpenCV and Python.
+                            Implemented real-time image processing, defect detection, and feature extraction techniques
+                            to improve detection accuracy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Languages & Frontend -->
+                <div class="skill-category">
+                    <h3>Languages & Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML/CSS</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                    </div>
+                </div>
+
+                <!-- Concepts & Cloud -->
+                <div class="skill-category">
+                    <h3>Concepts & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-server"></i> API Integration</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> AWS Services</span>
+                        <span class="skill-tag"><i class="fas fa-network-wired"></i> Data Structures</span>
+                        <span class="skill-tag"><i class="fas fa-code-branch"></i> Git/GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-flask"></i> Flask</span>
+                        <span class="skill-tag"><i class="fas fa-chart-bar"></i> Tableau</span>
+                        <span class="skill-tag"><i class="fas fa-file-excel"></i> Excel</span>
+                        <span class="skill-tag"><i class="fas fa-bolt"></i> Packet Tracer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="img-placeholder" style="background: linear-gradient(45deg, #2c3e50, #3498db);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>VIT Chatbot</h3>
+                        <p class="project-desc">AI-powered Student Assistance System using transformer-based NLP models.
+                            Increased response accuracy by 40% by fine-tuning ML models.</p>
+                        <ul class="project-stack">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>NumPy</li>
+                            <li>JSON</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="img-placeholder" style="background: linear-gradient(45deg, #11998e, #38ef7d);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Assistive Cane</h3>
+                        <p class="project-desc">Real-time obstacle detection for visually impaired users using dual
+                            ultrasonic sensors, YOLO-based object detection, and haptic + voice feedback.</p>
+                        <ul class="project-stack">
+                            <li>Python - OpenCV</li>
+                            <li>Raspberry Pi OS</li>
+                            <li>YOLOv4-tiny</li>
+                            <li>Arduino C</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="img-placeholder" style="background: linear-gradient(45deg, #DA22FF, #9733EE);">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vehicle Entry/Exit Management</h3>
+                        <p class="project-desc">Real-time monitoring system for enclosed communities using Arduino.
+                            Integrated Cloud and Fog layers to reduce latency and prevent cyber-attacks.</p>
+                        <ul class="project-stack">
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>AWS</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <h3>Cloud Infrastructure Certified (Oracle)</h3>
+                    <span class="cert-date">Mar 2025</span>
+                </div>
+                <div class="cert-card">
+                    <h3>Python Zero to Hero (Guvi)</h3>
+                    <span class="cert-date">Feb 2025</span>
+                </div>
+                <div class="cert-card">
+                    <h3>Python Certificate (Microsoft)</h3>
+                    <span class="cert-date">Dec 2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        Interested in discussing Python development, Cloud projects, or data-driven solutions?
+                        Feel free to reach out!
+                    </p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:kishorevkk7979@gmail.com">kishorevkk7979@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+916379590879">+91 6379590879</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                            <a href="#">LinkedIn Profile</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <a href="#">GitHub Profile</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Kishore Kumar V. All rights reserved.</p>
+            <p class="footer-tagline">Built with <i class="fas fa-heart"></i> and Code.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
